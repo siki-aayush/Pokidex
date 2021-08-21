@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import csv
 
 titles = ['name', 'description', 'height', 'weight', 'gender', 'category', 'abilities', 'type', 'weakness']
-with open('pokedex.csv', 'w') as f:
+with open('pokedex.csv', 'w', encoding='utf-8', errors='replace') as f:
     csv_writer = csv.writer(f, delimiter=',')
     csv_writer.writerow(titles)
     base ='https://www.pokemon.com' 
