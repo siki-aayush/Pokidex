@@ -1,10 +1,3 @@
-# Pokemon data Scrapper
-- Install the requirements from the requirements.txt using  ```pip install -r requirements.txt```.
-- Run ```python poki_scrape.py``` for pokemon text data.
-- Run ``` python poki_img_scrape.py ``` for all pokemon images.
-
-# Example
-
 |name|description|height|weight|gender|category|abilities|type|weakness|
 |---|---|---|---|---|---|---|---|---|
 |Bulbasaur|There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.|2' 04"|15.2 lbs||Seed|Overgrow|Grass,Poison|Fire,Psychic,Flying,Ice|
